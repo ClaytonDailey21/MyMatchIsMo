@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		F625E60C1A96186C00A7AFE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F625E60B1A96186C00A7AFE9 /* main.m */; };
 		F625E60F1A96186C00A7AFE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F625E60E1A96186C00A7AFE9 /* AppDelegate.m */; };
-		F625E6121A96186C00A7AFE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F625E6111A96186C00A7AFE9 /* ViewController.m */; };
+		F625E6121A96186C00A7AFE9 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F625E6111A96186C00A7AFE9 /* CardGameViewController.m */; };
 		F625E6151A96186C00A7AFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F625E6131A96186C00A7AFE9 /* Main.storyboard */; };
 		F625E6171A96186C00A7AFE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F625E6161A96186C00A7AFE9 /* Images.xcassets */; };
 		F625E61A1A96186C00A7AFE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F625E6181A96186C00A7AFE9 /* LaunchScreen.xib */; };
 		F625E6261A96186C00A7AFE9 /* MyMatchIsMoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F625E6251A96186C00A7AFE9 /* MyMatchIsMoTests.m */; };
+		F6D42C7B1A9982A7000173B9 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D42C7A1A9982A7000173B9 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		F625E60B1A96186C00A7AFE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F625E60D1A96186C00A7AFE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F625E60E1A96186C00A7AFE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F625E6101A96186C00A7AFE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F625E6111A96186C00A7AFE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F625E6101A96186C00A7AFE9 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		F625E6111A96186C00A7AFE9 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		F625E6141A96186C00A7AFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F625E6161A96186C00A7AFE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F625E6191A96186C00A7AFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F625E61F1A96186C00A7AFE9 /* MyMatchIsMoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMatchIsMoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F625E6241A96186C00A7AFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F625E6251A96186C00A7AFE9 /* MyMatchIsMoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMatchIsMoTests.m; sourceTree = "<group>"; };
+		F6D42C791A9982A7000173B9 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		F6D42C7A1A9982A7000173B9 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,9 @@
 			children = (
 				F625E60D1A96186C00A7AFE9 /* AppDelegate.h */,
 				F625E60E1A96186C00A7AFE9 /* AppDelegate.m */,
-				F625E6101A96186C00A7AFE9 /* ViewController.h */,
-				F625E6111A96186C00A7AFE9 /* ViewController.m */,
+				F625E6101A96186C00A7AFE9 /* CardGameViewController.h */,
+				F625E6111A96186C00A7AFE9 /* CardGameViewController.m */,
+				F6D42C7C1A9982AE000173B9 /* Model */,
 				F625E6131A96186C00A7AFE9 /* Main.storyboard */,
 				F625E6161A96186C00A7AFE9 /* Images.xcassets */,
 				F625E6181A96186C00A7AFE9 /* LaunchScreen.xib */,
@@ -117,6 +121,15 @@
 				F625E6241A96186C00A7AFE9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6D42C7C1A9982AE000173B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6D42C791A9982A7000173B9 /* Card.h */,
+				F6D42C7A1A9982A7000173B9 /* Card.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F625E6121A96186C00A7AFE9 /* ViewController.m in Sources */,
+				F625E6121A96186C00A7AFE9 /* CardGameViewController.m in Sources */,
 				F625E60F1A96186C00A7AFE9 /* AppDelegate.m in Sources */,
 				F625E60C1A96186C00A7AFE9 /* main.m in Sources */,
+				F6D42C7B1A9982A7000173B9 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +426,7 @@
 				F625E62B1A96186C00A7AFE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F625E62C1A96186C00A7AFE9 /* Build configuration list for PBXNativeTarget "MyMatchIsMoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				F625E62E1A96186C00A7AFE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
