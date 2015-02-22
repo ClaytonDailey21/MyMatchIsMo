@@ -15,6 +15,7 @@
 		F625E61A1A96186C00A7AFE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F625E6181A96186C00A7AFE9 /* LaunchScreen.xib */; };
 		F625E6261A96186C00A7AFE9 /* MyMatchIsMoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F625E6251A96186C00A7AFE9 /* MyMatchIsMoTests.m */; };
 		F6D42C7B1A9982A7000173B9 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D42C7A1A9982A7000173B9 /* Card.m */; };
+		F6D42C811A998907000173B9 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D42C801A998907000173B9 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		F625E6251A96186C00A7AFE9 /* MyMatchIsMoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMatchIsMoTests.m; sourceTree = "<group>"; };
 		F6D42C791A9982A7000173B9 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		F6D42C7A1A9982A7000173B9 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		F6D42C7F1A998907000173B9 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		F6D42C801A998907000173B9 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 		F6D42C7C1A9982AE000173B9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F6D42C7F1A998907000173B9 /* Deck.h */,
+				F6D42C801A998907000173B9 /* Deck.m */,
 				F6D42C791A9982A7000173B9 /* Card.h */,
 				F6D42C7A1A9982A7000173B9 /* Card.m */,
 			);
@@ -232,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D42C811A998907000173B9 /* Deck.m in Sources */,
 				F625E6121A96186C00A7AFE9 /* CardGameViewController.m in Sources */,
 				F625E60F1A96186C00A7AFE9 /* AppDelegate.m in Sources */,
 				F625E60C1A96186C00A7AFE9 /* main.m in Sources */,

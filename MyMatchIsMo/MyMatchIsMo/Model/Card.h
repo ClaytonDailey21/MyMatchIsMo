@@ -1,5 +1,5 @@
 //
-//  NSObject+Card.h
+//  Card.h
 //  MyMatchIsMo
 //
 //  Created by Dailey on 2015/2/22.
@@ -9,5 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface Card : NSObject
+
+@property (strong, nonatomic) NSString *contents;
+
+
+@property (nonatomic) BOOL chosen;
+@property (nonatomic) BOOL matched;
+
+- (int)matched:(NSArray *)otherCards;
 
 @end
