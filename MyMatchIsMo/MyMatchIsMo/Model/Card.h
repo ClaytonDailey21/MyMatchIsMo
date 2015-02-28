@@ -13,8 +13,8 @@
 @property (strong, nonatomic) NSString *contents;
 
 
-@property (nonatomic) BOOL chosen;
-@property (nonatomic) BOOL matched;
+@property (nonatomic, getter=isChosen) BOOL chosen;
+@property (nonatomic, getter=isMatched) BOOL matched;
 
 - (int)matched:(NSArray *)otherCards;
 
