@@ -91,25 +91,7 @@ static const int COST_TO_CHOOSE   = 1;
             }
             card.chosen = YES;
         }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }
+
 }
 @end

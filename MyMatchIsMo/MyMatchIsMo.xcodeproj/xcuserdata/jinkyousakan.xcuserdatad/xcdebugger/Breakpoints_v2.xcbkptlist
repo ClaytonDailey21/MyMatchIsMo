@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMatchIsMo/Model/PlayingCard.m"
-            timestampString = "446275276.917877"
+            timestampString = "446788099.341246"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "-contents"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMatchIsMo/Model/PlayingCard.m"
-            timestampString = "446301480.205386"
+            timestampString = "446788099.341246"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "+rankStrings"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMatchIsMo/CardGameViewController.m"
-            timestampString = "446786031.096304"
+            timestampString = "446788099.341246"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "-game"
             landmarkType = "5">
          </BreakpointContent>
