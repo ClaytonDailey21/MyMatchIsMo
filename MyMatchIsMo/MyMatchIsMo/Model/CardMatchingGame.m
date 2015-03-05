@@ -17,6 +17,10 @@
 
 @property (nonatomic, readwrite) NSInteger Score;
 
+// - Add match score for log start
+@property (nonatomic, readwrite) NSInteger matchScore;
+// - Add match score for log end
+
 //
 // Our game needs keep track of the cards, so we need a private @property to do that
 //
@@ -79,6 +83,9 @@ static const int COST_TO_CHOOSE   = 1;
                     
                     if (matchScore) {
                         self.Score += matchScore * MATCH_BONUS;
+// - Add match score for log start
+                        self.matchScore = matchScore * MATCH_BONUS;
+// - Add match score for log end
                         otherCard.matched = YES;
                         card.matched      = YES;
                     } else {

@@ -22,4 +22,7 @@
 - (Card *)cardAtIndex:(NSUInteger)index;
 
 @property (nonatomic,readonly) NSInteger Score;
+// - Add match score for log start
+@property (nonatomic, readonly) NSInteger matchScore;
+// - Add match score for log end
 @end
